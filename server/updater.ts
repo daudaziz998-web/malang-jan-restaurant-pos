@@ -58,9 +58,9 @@ export function compareSemver(v1: string, v2: string): number {
   return 0;
 }
 
-// Default GitHub repository path - left unconfigured until user provides new repository
-export const DEFAULT_GITHUB_OWNER = '';
-export const DEFAULT_GITHUB_REPO = '';
+// Default GitHub repository configuration for official published releases
+export const DEFAULT_GITHUB_OWNER = 'daudaziz998-web';
+export const DEFAULT_GITHUB_REPO = 'malang-jan-restaurant-pos';
 
 export function getPackageRepoInfo(): { owner: string; repo: string } {
   try {

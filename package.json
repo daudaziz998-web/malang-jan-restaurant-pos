@@ -4,6 +4,15 @@
   "version": "1.0.2",
   "description": "MALANG JAN RESTURANT Management and POS System",
   "type": "module",
+  "build": {
+    "appId": "com.malangjanrestaurant.pos",
+    "productName": "MALANG JAN RESTURANT",
+    "publish": {
+      "provider": "github",
+      "owner": "daudaziz998-web",
+      "repo": "malang-jan-restaurant-pos"
+    }
+  },
   "scripts": {
     "dev": "tsx server-entry.ts",
     "build": "vite build",
