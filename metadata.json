@@ -1,0 +1,6 @@
+{
+  "name": "MALANG JAN RESTURANT",
+  "description": "MALANG JAN RESTURANT Management and POS application with thermal printing and SQLite persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
